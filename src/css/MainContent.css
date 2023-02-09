@@ -1,0 +1,44 @@
+.swiper-slide{position: relative}
+.swiper-slide img{width:100%;height:100%;object-fit: cover;object-position: 50% 50%}
+.swiper-slide span{position:absolute;left:50%;bottom:45%;color:#fff;font-family: 'Noto Serif KR', serif;font-size: 2.4em;text-shadow: 3px 3px 4px rgba(0,0,0,.6);
+                   transform: translateX(-50%);line-height:1.5em}
+.swiper-pagination-bullets .swiper-pagination-bullet{background: #fff;opacity: .7}
+.swiper-pagination-bullets .swiper-pagination-bullet-active{background: darkgreen}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom:30px}
+
+.contentInner{overflow: hidden}
+.about .right{float: right}
+.about .right img{object-fit: cover;overflow: hidden;width:100%;height:100%}
+.about .left{padding: 5%;float: left}
+.about .left p{line-height: 2em; display: -webkit-box;-webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;text-overflow: ellipsis}
+.about .left a,.management .btn,.plants a{color:#fff;border: 1px solid rgb(6, 63, 6);transition:all .5s ease-out;margin-top: 5%;background: rgb(6, 63, 6)}
+.about .left a:hover,.management .btn:hover, .plants a:hover{color: rgb(6, 63, 6);background:#fff}
+
+.management .imgBox{width:180px;height:180px;border-radius: 50%;overflow: hidden;margin: 0 auto}
+.management .imgBox img{object-fit: cover;width:100%;height:100%}
+.management .title{display: block;font-size: 1.4em;font-weight: 500;color:rgb(6, 63, 6);margin: 10% 0 8%}
+.management p{display: -webkit-box;-webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;text-overflow: ellipsis}
+
+.plants{color:  #fff;background: rgb(3, 35, 3);}
+.plants h3{margin-bottom: 40px}
+.plants button{margin: 2% 0 0 0}
+.plants p{text-align: center}
+
+.gallery ul{display: grid;grid-template-columns: repeat(4,1fr);grid-auto-rows: 300px;grid-gap: 10px}
+.gallery li{overflow: hidden}
+.gallery li img{width:100%;height:100%;object-fit: cover}
+
+.gallery .headTitle{overflow: hidden}
+.gallery .galleryBtn{border-radius: 50%;width:60px;height:60px;background: rgb(6, 63, 6);color:#fff;display: block;
+                     float:right;margin-bottom: 2%;line-height: 56px;font-size: 2em;transition:all .5s ease-out;border: 1px solid rgb(6, 63, 6)}
+.gallery .galleryBtn:hover{background: #fff;color:rgb(6, 63, 6)}
+
+/* 일반테블릿 */
+@media screen and (max-width:1024px){
+    .gallery ul{display: grid;grid-template-columns: repeat(3,1fr);grid-auto-rows: 300px;grid-gap: 10px}
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:768px){
+    .gallery ul{display: grid;grid-template-columns: repeat(2,1fr);grid-auto-rows: 300px;grid-gap: 10px}
+}

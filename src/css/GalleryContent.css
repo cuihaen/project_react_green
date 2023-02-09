@@ -1,0 +1,13 @@
+.contentInner2.gallery .innerBox ul{display: grid;grid-template-columns: repeat(4,1fr);grid-auto-rows: 300px;grid-gap: 10px}
+.contentInner2.gallery .innerBox li{overflow: hidden}
+.contentInner2.gallery .innerBox li img{width:100%;height:100%;object-fit: cover}
+
+/* 일반테블릿 */
+@media screen and (max-width:1024px){
+    .contentInner2.gallery .innerBox ul{display: grid;grid-template-columns: repeat(3,1fr);grid-auto-rows: 300px;grid-gap: 10px}
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:768px){
+    .contentInner2.gallery .innerBox ul{display: grid;grid-template-columns: repeat(2,1fr);grid-auto-rows: 300px;grid-gap: 10px}
+}
