@@ -27,7 +27,7 @@ function Management() {
                         </div>
                         <div className="col-md-5">
                             <div className="imgBox">
-                                <img src="./img/watering.jpg" alt=""/>
+                                <img src="./img/watering.jpg" alt="물주기"/>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ function Management() {
                     </div>
                     <div className="col-md-5">
                         <div className="imgBox">
-                            <img src="./img/sunshine.jpg" alt=""/>
+                            <img src="./img/sunshine.jpg" alt="광관리"/>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ function Management() {
                         </div>
                         <div className="col-md-5">
                             <div className="imgBox">
-                                <img src="./img/home_garden.jpg" alt=""/>
+                                <img src="./img/home_garden.jpg" alt="온습도관리"/>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function Management() {
                     </div>
                     <div className="col-md-5">
                             <div className="imgBox">
-                                <img src="./img/bug.jpg" alt=""/>
+                                <img src="./img/bug.jpg" alt="시비 및 병해충 관리"/>
                             </div>
                         </div>
                 </div>
